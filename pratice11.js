@@ -1,6 +1,6 @@
 //Pedir para o user digitar dois números e mostrar se foi aprovado ou não
 //A nota de corte é 5
-//Se qualuqer nota for 0 ele reprova automaticamente
+//Se qualuqer nota for 0 ele reprova automaticamente com if e else
 
 let number1 = prompt("Type your 1° grade");
 let number2 = prompt("Type you 2° grade");
