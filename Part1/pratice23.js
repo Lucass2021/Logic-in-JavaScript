@@ -23,9 +23,32 @@ if (average >= 50) {
 //Se o número sorteado for  0, ganha quem escolher o MENOR
 //Se o número sorteado for  1, ganha quem escolher o MAIOR
 
-let jogador1 = prompt.parseInt("Type a number");
-let jogador2 = prompt.parseInt("Type another number");
+let jogador1 = prompt("J1 - Type 0 or 1");
+let jogador2 = prompt("J2 - Type 0 or 1");
 
-let sorteio = Math.floor(Math.random() * 2);
+jogador1 = parseInt(jogador1);
+jogador2 = parseInt(jogador2);
 
+
+
+if (jogador1 === jogador2) {
+    alert("Empate");
+} else {
+    let sorteio = Math.floor(Math.random() * 2);
+
+    if (sorteio === 0) {
+        if (jogador1 < jogador2) {
+            alert("J1 venceu");
+        } else {
+            alert("J2 Venceu");
+        }
+
+    } else (sorteio === 1)
+    if (jogador1 > jogador2) {
+        alert("J1 Venceu");
+    } else {
+        alert("J2 Venceu");
+    }
+
+};
 
