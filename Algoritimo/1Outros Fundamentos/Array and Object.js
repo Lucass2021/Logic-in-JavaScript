@@ -1,0 +1,24 @@
+//Revisão Object and array
+
+// Object
+
+const person = {
+    name: "John",
+    age: 30,
+    weight: 88.6,
+    isAdmin: true,
+}
+
+console.log(person.name)
+console.log(`O ${person.name} tem ${person.age} anos de idade`);
+
+// Array
+
+const animals = [
+    "Lion",
+    "Monkey",
+    "Cat",
+]
+
+console.log(animals[0]);
+console.log(animals.length)
